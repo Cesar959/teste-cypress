@@ -1,0 +1,85 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #252526;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+.container 
+{
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+}
+
+p 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+}
+
+.video
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 992px) 
+{
+    
+    h1 {
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .video 
+    {
+        width: 90%;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    h1 {
+        font-size: 25px;
+    }
+
+    p 
+    {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 475px) 
+{
+    h1 {
+        font-size: 20px;
+    }
+}
+
+
