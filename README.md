@@ -7,11 +7,7 @@
 
 ## Descrição
 
-O projeto é uma API RESTful aonde é possível cadastrar, alterar, ler e excluir usuários. Interface de Programação de Aplicações (português) cuja sigla API provém do Inglês Application Programming Interface, é um conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades. 
-
-API conta com 5 funcionalidades básicas: obter todos os registros, selecionar um único registro, cadastrar, atualizar e deletar. Até o momento não foi implementado um sistema de autenticação para utilizar a API, possibilitando assim a utilização pública da mesma. 
-
-Para isso foi utilizado o Node junto com o Express.js para realizar o roteamento das rotas da API que obtém os dados do mongodb atlas. A arquitetura é baseada no MVC e também foi trabalhado algumas regras de negócio internamente. Na pasta DOC você encontra alguns registros prontos para efetuar teste na aplicação.
+O projeto de teste automatizado com Cypress, aonde foi realizado vários testes de softwares com o objetivo de verificar a qualidade do mesmo. Alguns dos testes implementados foi cadastramento, campo CPF incorreto, E-mail incorreto, Verificação das mensagens de erros e criação de massas de testes. Esse projeto foi desenvolvedor durante o curso Cypress Discovery oferecido pela QANinja que disponibilizou gratuitamente as aulas em sua plataforma. 
 
 
 ## Instalação Local
@@ -31,7 +27,7 @@ npm install
 npm run test
 ```
 
-5) Acesse "http://localhost:PORTA/ (substititua PORTA pelo o valor definido no .env)
+5) Na tela que sera exibida selecione o teste que deseja executar.
 
 
 ## Status do Projeto
