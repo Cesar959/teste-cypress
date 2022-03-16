@@ -64,6 +64,7 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 
 ## Links
 
+* [Apresentação](https://cesar959.github.io/teste-cypress/) - Link da Apresentação em video do projeto
 * [QANinja](https://app.qaninja.com.br/area/vitrine) - Link do curso que ensinou essas habilidades
 
 
